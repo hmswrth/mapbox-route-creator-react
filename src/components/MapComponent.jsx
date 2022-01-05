@@ -52,7 +52,7 @@ function MapComponent({ datas, showMarks, dis, rateLimit }) {
          setLat(datas[datas.length - 1].latitude);
          setLong(datas[datas.length - 1].longitude);
       }
-      console.log("datas", datas, "marks", showMarks, "routes", dis);
+      // console.log("datas", datas, "marks", showMarks, "routes", dis);
    }, [datas, showMarks, dis, lat, long]);
 
    const sendToast = () => {

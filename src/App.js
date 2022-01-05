@@ -32,12 +32,12 @@ function App() {
       dire.push([+x.longitude, +x.latitude]);
     });
     setRouteData(dire);
-    console.log(dire)
+    // console.log(dire)
   };
 
   const rateLimitApi = async () => {
     try {
-      const response = await fetch('http://localhost:8080')
+      const response = await fetch('https://blooming-everglades-49469.herokuapp.com/')
       const data = await response.json()
       console.log(data.message)
       if (data.message == 'Accepted!') {

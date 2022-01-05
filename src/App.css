@@ -1,0 +1,197 @@
+.App {
+  background-color: #72A1BF;
+  width: 100%;
+  height: 100vh;
+}
+
+.home{
+  position: relative;
+  background-color: #A5C0D1;
+  color: #909396;
+  top: 29px;
+  left: 32px;
+  width: 84px;
+  height: 42px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.home:hover{
+  color:#074770
+}
+
+.home:focus{
+  outline: none;
+  
+}
+
+.container{
+  background: #074770;
+  width: 960px;
+  height: 500px;
+  margin: 8% auto;
+  border-radius: 36px;
+  overflow: hidden;
+}
+
+label{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #A5C0D1;
+  font-size: 14px;
+}
+
+input{
+color : #4F4F4F;
+  padding: 10px;
+  border-radius: 3px;
+  border:none;
+  margin-top: 10px;
+}
+
+input:focus{
+  outline: none;
+}
+
+form{
+  display: inline-flex;
+  padding: 30px;
+}
+
+form > div{
+  margin-right:20px ;
+}
+
+form >div:not(:first-child) > input{
+  width: 100px;
+}
+
+.formButton{
+ width: 120px;
+  height: 35px;
+  border-radius: 21px;
+  opacity: 0.49;
+  color: #074770;
+  border: none;
+  margin-top: 10px;
+  margin-left: 250%;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  font-weight: bold;
+}
+
+.addButton{
+  width: 120px;
+  height: 35px;
+  border-radius: 21px;
+  color: #074770;
+  border: none;
+  margin-top: 10px;
+  margin-left: 250%;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  font-weight: bold;
+}
+
+.addButton:hover{
+  opacity: 0.6;
+}
+
+.addButton:focus{
+  outline: none;
+}
+
+.formButton:hover{
+  opacity: 0.6;
+}
+
+.formButton:focus{
+  outline: none;
+}
+
+.tableConatiner{
+  height: 100%;
+  width: 50%;
+  background-color: #F2FAFF;
+}
+
+.tableConatiner > p{
+  font-family: normal normal bold 14px/19px Segoe UI;
+  font-weight: bold;
+  margin: 0px;
+  font-size: 14px;
+  padding:20px 20px 0px 20px;
+}
+
+.mapContainer{
+  position: relative;
+  height: 100%;
+  width: 50%;
+  top:-100%;
+  left: 50%;
+}
+
+table{
+  font-family: normal normal bold 14px/19px Segoe UI;
+  font-size: 12px;
+color : #123043;
+padding: 20px;
+}
+
+tr{
+  height: 20px;
+}
+
+table > tr > td:not(:first-child){
+color : #000000;
+font-weight: bold;
+}
+
+tr > td:nth-child(1){
+  width: 250px;
+}
+
+tr >td:not(:first-child){
+  text-align: center;
+  width: 90px;
+}
+
+.routeButton{
+  background-color: #074770;
+  color: #ffffff;
+  width: 70%;
+  border:none;
+  border-radius: 21px;
+  padding: 10px;
+  position: relative;
+  top: 100px;
+  left: 15%;
+  right: 15%;
+  cursor: pointer;
+}
+
+.routeButton:focus{
+  outline: none;
+}
+
+.mapboxgl-ctrl-directions {
+  /* display: none; */
+  /* height: 100px; */
+  /* opacity: 0.4; */
+} 
+
+.mapbox-directions-component {
+  display: none;
+}
+
+.mapboxgl-ctrl-bottom-left
+{
+ width: 90px;
+ height: 130px;
+ opacity: 0.4;
+}
+
+
+
+
